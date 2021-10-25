@@ -1,0 +1,312 @@
+*{box-sizing: border-box; font-family: 'Quicksand', sans-serif;}
+body{background-color:#FFF;margin:0;}
+a:link{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+span:hover{
+	color: #aaa;
+}
+/* 				NAV DLA DUZYCH EKRANOW		*/
+.nav-mimizi{
+	background-color: #453988;
+	width: 100%;
+	font-size: 1.2em;
+	padding: 1vh 0;
+	display: block;
+
+	/*text-shadow: 0 -1px 4px rgb(7, 5, 5), 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;color: #FFFFFF;*/
+}
+
+.menu{text-align: center; width: 100%;}
+.menu.menu-content{color: #000; transition: all 1s ease-in-out;}
+
+.menu-href{color: #FFFFFF;padding: 1vw;  color: #fff;
+/* text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #000;*/} 
+
+.menu-href:hover{
+	cursor:pointer;
+	color: #453988;
+	background-color: #FFF;
+}
+.reg-href{
+	color: #fff;
+}
+.reg-href:hover{
+	color: lawngreen;
+}
+.login-href{
+	color: #453988;
+	text-decoration: underline !important;
+}
+.login-href:hover{
+	color: #000;
+}
+
+.logClass{
+	width: 310px; 
+	text-align:left; 
+	margin: 0 auto;
+}
+textarea{
+	font-size: 1.2em;
+}
+.logClassEdit{
+	width: 60%;
+	text-align:left; 
+	margin: 0 auto;
+}
+
+.g-recaptcha{
+	padding: 5px;
+	margin:0;
+}
+
+.loremipsum{margin-left: auto; margin-right: auto; text-align:center; padding:20px 0 20px 0; width: 50%;}
+
+#logowanie{text-align:center;
+	font-family: 'Anonymous Pro', monospace; 
+	font-size:16px; padding:20px 0 20px 0;}
+h2{font-weight: normal !important;}
+section.mojeKonto{text-align:center; font-size:1.3em; padding:40px 0 20px 0;}
+section.dodane-rysunki{text-align:center;
+	font-family: 'Anonymous Pro', monospace; 
+	font-size: 20px; padding:40px 0 20px 0;}
+
+input{
+	font-family: 'Anonymous Pro', monospace; 
+	width:300px;font-size:1.2em;
+	border:1px solid #000;
+	padding:5px;
+	margin:5px 0 5px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+input:focus{
+	background-color:#453988; 
+	color:#FFF;}
+
+input[type=submit]{font-size:22px;cursor:pointer;background-color: #786cbb; width:auto; margin-right:0;width:200px;border:2px solid #000;border-radius:20%;}
+input[type=submit]:hover{color:#FFF; background-color: #453988;}
+.input-footer{
+	width: 100%;
+	background-color: #FFF;
+}
+.input-footer:focus{
+	background-color:#AAA; 
+	color:#000;}
+
+
+.p-hidden:hover{
+	cursor:pointer;
+	color: lawngreen;
+}
+.p-hidden-mm{
+	text-align: right;
+color: #ff0000;
+text-decoration: underline;
+cursor: pointer;
+}
+.p-hidden-mm:hover{
+	color: #000;
+}
+.account-przyciski{
+	font-family: 'Quicksand', sans-serif !important;
+	display: inline-block;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #453988 !important;
+	color: #fff !important;
+	border: 0 !important;
+	border-radius:0 !important;
+}
+.account-przyciski:hover{
+	color: lawngreen !important;
+}
+footer{
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+	min-height: 40vh;
+	background-color: #453988;
+}
+.div-w-footer{
+	padding: 0.2%;
+	color: #fff;
+	text-align: center;
+}
+
+.div-w-footer-hidden{
+	display: none;
+}
+
+.div-w-footer-hidden.zmien{
+	display: block;
+}
+.komentarz{
+	padding: 2px;
+	color: #FFF;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.menu-icon{display:none;}
+.error{color:#ff0000; font-size: 20px !important;}
+.error2{color:#ff0000 !important;}
+.error3{color: #fff !important; font-size: 1em; padding: 10px; font-family: 'Red Hat Display', sans-serif;}
+.error-link{
+color: #ff0000;
+text-decoration: underline !important;
+}
+.error-link:hover{
+	color: #000;
+}
+.image-with-arrow{position: relative;}
+
+.img-header{
+	max-height: 80px;
+}
+
+.scroll{display: inline-block;}
+.scroll:hover{color: rgb(39, 36, 187); cursor: pointer;}
+
+.img-class{width: 100%; height: 100%;}
+
+.img-avatar{
+	box-sizing: initial;
+	padding: 0 5px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.comment-href{
+	color: lawngreen;
+}
+.comment-href:hover{
+	color: #fff;
+}
+.u_a_l_img{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.u_a_l_img2{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	}
+.icon-class{display: inline-block; padding: 6px 12px; color:black;}
+.icon-class.changeColor{color: red;}
+.icon-class:hover{color: #453988; cursor: pointer;}
+
+hr{height: 2px; background-color: #453988;}
+
+.comment-user{
+	color:  lawngreen;
+}
+
+.search{
+	padding: 5px;
+	display: flex;
+	justify-content: left;
+}
+
+.search-input{
+	width: 300px;
+	padding: 5px; 
+	font-size: 24px;
+	border: 1px solid #000;
+	font-family: 'Quicksand', sans-serif;
+}
+.search-input:focus{
+	/* border: 1px solid rgb(54, 184, 207); */
+	background-color: #eee;
+	border: 1px solid #453988;
+	color: #000;
+}
+.gethint{
+	
+}
+.txtHint{
+
+}
+.search-href{
+	color: #453988;
+	color:#000;
+}
+.aboutimg{
+	display: inline-block;	
+	width: 33%;
+	align-items: center;
+} 
+.image-div-class{display: inline-block; padding:0.1em; margin:0; width: 100%; height: 100%; }
+.loginName{
+	padding-top: 10px;
+}
+.circleRed{
+	padding: 12px;
+	display: inline-block;
+	background-color: #ff0000;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.circleGreen{
+	padding: 12px;
+	display: inline-block;
+	background-color: #00ff00;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
+.user_avatar_logged{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div-w-mm-hidden{
+	display: none;
+}
+.div-w-mm-hidden.zmien{
+	display: block;
+}
+/*	NA WYSWIETLACZACH DO 750px		*/
+@media only screen and (max-width: 750px) {
+	 .logClassEdit{
+		 width: 80%;
+	 }
+	.loremipsum{width: 100%;}
+	.mojeKonto{padding: 0;}
+
+	.menu-href:not(:first-child){display: none;}
+
+    .menu-icon {display:block; padding: 5px; font-size: 2em; color: #fff; text-align: right;}
+	.menu-icon:hover {color:#ccc;}
+	
+	.nav-mimizi{padding-bottom: 0;}
+	.menu.small {position: relative; width: 100%;}
+	.menu.small a.menu-href{display: block; font-size: 1em; text-align: center; background-color: #453988;}
+	.menu.small a.menu-href:hover{background-color:#FFF;}
+
+	.aboutimg{	
+		width: 50%;
+	} 
+}
+@media only screen and (max-width: 320px) {
+	.aboutimg{
+		width: 100%;
+		margin: 0 !important;
+	} 
+	.search-input{
+		width: 90%;
+	}
+	.img-header{
+		width: 90%;
+	}
+
+}

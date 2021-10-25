@@ -1,0 +1,20 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule glowna index.php
+RewriteRule galeria galeria.php
+RewriteRule nowy-uzytkownik nowy.php
+RewriteRule konto-drawplatform account.php
+RewriteRule zaloguj-sie mojemimizi.php
+RewriteRule dane-uzytkownika user.php
+RewriteRule upload-drawplatform upload.php
+RewriteRule witaj witaj.php
+RewriteRule nowosci nowosci.php
+RewriteRule regulamin  regulamin.php
